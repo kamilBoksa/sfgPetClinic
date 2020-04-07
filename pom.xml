@@ -34,13 +34,14 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
-        <developerConnection></developerConnection>
+        <developerConnection>scm:git:git@github.com:kamilBoksa/sfgPetClinic.git</developerConnection>
     </scm>
 
 </project>
